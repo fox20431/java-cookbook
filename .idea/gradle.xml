@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleJvm" value="#JAVA_HOME" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/enum" />
+            <option value="$PROJECT_DIR$/file" />
+            <option value="$PROJECT_DIR$/functional-interface" />
+            <option value="$PROJECT_DIR$/generic" />
+            <option value="$PROJECT_DIR$/iterable" />
+            <option value="$PROJECT_DIR$/reflection" />
+            <option value="$PROJECT_DIR$/stream" />
+            <option value="$PROJECT_DIR$/sync" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
