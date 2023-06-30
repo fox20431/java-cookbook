@@ -145,13 +145,6 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunDashboard">
-    <option name="configurationTypes">
-      <set>
-        <option value="SpringBootApplicationConfigurationType" />
-      </set>
-    </option>
-  </component>
   <component name="RunManager" selected="Gradle.AppleTest.testValue">
     <configuration name="AppleTest.testCompare" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -268,6 +261,17 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HateoasDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="hateoas-demo.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.hateoasdemo.HateoasDemoApplication" />
@@ -314,17 +318,11 @@
       <workItem from="1681742464468" duration="81000" />
       <workItem from="1681796975319" duration="663000" />
       <workItem from="1681797645530" duration="5046000" />
-      <workItem from="1684244077683" duration="273000" />
-      <workItem from="1688126301526" duration="3074000" />
-      <workItem from="1688132890268" duration="192000" />
-      <workItem from="1688133095200" duration="1150000" />
+      <workItem from="1681900907470" duration="55000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
