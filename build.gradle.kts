@@ -1,5 +1,5 @@
 plugins {
-    java
+    application
 }
 
 group = "com.hihusky"
@@ -15,7 +15,6 @@ java {
 }
 
 subprojects {
-    // java plugin
     apply(plugin = "java")
 
     repositories {
@@ -23,7 +22,6 @@ subprojects {
     }
 
     dependencies {
-
         // junit jupiter api
         testImplementation("org.junit.jupiter:junit-jupiter-api:5.8.2")
         // junit jupiter engine

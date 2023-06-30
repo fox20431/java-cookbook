@@ -4,16 +4,21 @@
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
+        <option name="delegatedBuild" value="true" />
+        <option name="testRunner" value="GRADLE" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="gradleJvm" value="#JAVA_HOME" />
+        <option name="gradleHome" value="$USER_HOME$/AppData/Local/Programs/gradle/gradle-7.6" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/collection" />
             <option value="$PROJECT_DIR$/enum" />
             <option value="$PROJECT_DIR$/file" />
             <option value="$PROJECT_DIR$/functional-interface" />
             <option value="$PROJECT_DIR$/generic" />
             <option value="$PROJECT_DIR$/iterable" />
+            <option value="$PROJECT_DIR$/native" />
             <option value="$PROJECT_DIR$/reflection" />
             <option value="$PROJECT_DIR$/stream" />
             <option value="$PROJECT_DIR$/sync" />
