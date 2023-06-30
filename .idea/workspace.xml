@@ -5,45 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3f92a76b-f834-4fb5-846d-b5edd420426a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/collection/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/native/NativeDemo.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/native/NativeDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/native/NativeDemo.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/native/NativeDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/native/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/native/libNativeDemo.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/enum/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/enum/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/enum/src/main/java/com/hihusky/enum_/Apple.java" beforeDir="false" afterPath="$PROJECT_DIR$/enum/src/main/java/com/hihusky/enum_/Apple.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/enum/src/test/java/com/hihusky/enum_/AppleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/enum/src/test/java/com/hihusky/enum_/AppleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/file/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/file/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/file/src/test/java/com/hihusky/file/FileOperationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/file/src/test/java/com/hihusky/file/FileOperationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functional-interface/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/functional-interface/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generic/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/generic/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generic/src/main/java/GenericOnClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/generic/src/main/java/GenericOnClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generic/src/main/java/GenericOnFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/generic/src/main/java/GenericOnFunction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generic/src/main/java/GenericOnInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/generic/src/main/java/GenericOnInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/iterable/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/iterable/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/iterable/src/test/java/Demos.java" beforeDir="false" afterPath="$PROJECT_DIR$/iterable/src/test/java/Demos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reflection/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/reflection/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reflection/src/main/java/com/hihusky/reflection/BaseAnnotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/reflection/src/main/java/com/hihusky/reflection/BaseAnnotation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reflection/src/main/java/com/hihusky/reflection/BaseAnnotationTarget.java" beforeDir="false" afterPath="$PROJECT_DIR$/reflection/src/main/java/com/hihusky/reflection/BaseAnnotationTarget.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reflection/src/main/java/com/hihusky/reflection/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/reflection/src/main/java/com/hihusky/reflection/BaseClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reflection/src/main/java/com/hihusky/reflection/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/reflection/src/main/java/com/hihusky/reflection/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reflection/src/test/java/com/hihusky/reflection/util/ReflectionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/reflection/src/test/java/com/hihusky/reflection/util/ReflectionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stream/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/stream/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stream/src/test/java/Demos.java" beforeDir="false" afterPath="$PROJECT_DIR$/stream/src/test/java/Demos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sync/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/sync/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sync/src/main/java/com/hihusky/synckeyword/SyncThreadDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/sync/src/main/java/com/hihusky/synckeyword/SyncThreadDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -355,7 +317,7 @@
       <workItem from="1684244077683" duration="273000" />
       <workItem from="1688126301526" duration="3074000" />
       <workItem from="1688132890268" duration="192000" />
-      <workItem from="1688133095200" duration="862000" />
+      <workItem from="1688133095200" duration="1150000" />
     </task>
     <servers />
   </component>
