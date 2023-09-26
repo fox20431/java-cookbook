@@ -5,7 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3f92a76b-f834-4fb5-846d-b5edd420426a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/classloader/src/main/java/com/hihusky/classloader/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lambda/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lambda/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lambda/src/main/java/com/hihusky/lambda/Caller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lambda/src/main/java/com/hihusky/lambda/Lambda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lambda/src/main/java/com/hihusky/lambda/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stream/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stream/src/main/java/com/hihusky/stream/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functional-interface/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/net/src/main/java/com/hihusky/net/socket/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/main/java/com/hihusky/net/socket/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/net/src/main/java/com/hihusky/net/socket/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/main/java/com/hihusky/net/socket/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reflection/src/main/java/com/hihusky/reflection/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/reflection/src/main/java/com/hihusky/reflection/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +59,9 @@
       <ProjectState />
     </projectState>
     <projectState path="$PROJECT_DIR$/jdbc-demo">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/net">
       <ProjectState />
     </projectState>
     <projectState path="$PROJECT_DIR$/reactor-demo">
@@ -88,12 +106,7 @@
         </task>
         <projects_view>
           <tree_state>
-            <expand>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="java-cookbook" type="f1a62948:ProjectNode" />
-              </path>
-            </expand>
+            <expand />
             <select />
           </tree_state>
         </projects_view>
@@ -103,6 +116,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -110,9 +124,15 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="89wdqdhv" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2OYXXdMiCDbOZV20ESHxr3U1YOl" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -131,7 +151,7 @@
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;temurin-17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/ming/projects/java-cookbook&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/ming/projects/java-cookbook&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -140,80 +160,55 @@
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.12402344&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.1452514&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;spring.configuration.checksum&quot;: &quot;5a3f2d15d155aa197b2d69e831d82c1a&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Gradle.AppleTest.testValue">
-    <configuration name="AppleTest.testCompare" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":enum:test" />
-            <option value="--tests" />
-            <option value="&quot;com.hihusky.enum_.AppleTest.testCompare&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.hihusky.stream" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Server">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hihusky.net.socket.Client" />
+      <module name="java-cookbook.net.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hihusky.net.socket.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="AppleTest.testMethod" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":enum:test" />
-            <option value="--tests" />
-            <option value="&quot;com.hihusky.enum_.AppleTest.testMethod&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hihusky.stream.Demo" />
+      <module name="java-cookbook.stream.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hihusky.stream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="AppleTest.testOrdinal" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":enum:test" />
-            <option value="--tests" />
-            <option value="&quot;com.hihusky.enum_.AppleTest.testOrdinal&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
+    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hihusky.net.socket.Server" />
+      <module name="java-cookbook.net.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hihusky.net.socket.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="AppleTest.testToStringMethod" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -236,6 +231,7 @@
       <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
     <configuration name="AppleTest.testValue" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
@@ -259,6 +255,7 @@
       <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
     <configuration default="true" type="JetRunConfigurationType">
@@ -295,11 +292,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Demo" />
+        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.Server" />
         <item itemvalue="Gradle.AppleTest.testValue" />
         <item itemvalue="Gradle.AppleTest.testToStringMethod" />
-        <item itemvalue="Gradle.AppleTest.testOrdinal" />
-        <item itemvalue="Gradle.AppleTest.testCompare" />
-        <item itemvalue="Gradle.AppleTest.testMethod" />
       </list>
     </recent_temporary>
   </component>
@@ -319,6 +316,21 @@
       <workItem from="1681796975319" duration="663000" />
       <workItem from="1681797645530" duration="5046000" />
       <workItem from="1681900907470" duration="55000" />
+      <workItem from="1688376111503" duration="16000" />
+      <workItem from="1690352159570" duration="2662000" />
+      <workItem from="1690365767413" duration="89000" />
+      <workItem from="1690365940392" duration="370000" />
+      <workItem from="1690371656878" duration="751000" />
+      <workItem from="1690438361886" duration="554000" />
+      <workItem from="1690443733502" duration="2485000" />
+      <workItem from="1690446333872" duration="692000" />
+      <workItem from="1690461269668" duration="277000" />
+      <workItem from="1690877452143" duration="17111000" />
+      <workItem from="1690956568889" duration="1876000" />
+      <workItem from="1690985511766" duration="10000" />
+      <workItem from="1695691643444" duration="1020000" />
+      <workItem from="1695692668527" duration="103000" />
+      <workItem from="1695692776891" duration="668000" />
     </task>
     <servers />
   </component>
