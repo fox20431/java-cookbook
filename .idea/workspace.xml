@@ -5,21 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3f92a76b-f834-4fb5-846d-b5edd420426a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/classloader/src/main/java/com/hihusky/classloader/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lambda/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lambda/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lambda/src/main/java/com/hihusky/lambda/Caller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lambda/src/main/java/com/hihusky/lambda/Lambda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lambda/src/main/java/com/hihusky/lambda/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream/src/main/java/com/hihusky/stream/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hashmap-type/src/main/java/com/hihusky/hashmap/ConcurrentHashMapExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hashmap-type/src/main/java/com/hihusky/hashmap/HashMapExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/string-construction/src/main/java/com/hihusky/stringconstruction/StringBufferExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/string-construction/src/main/java/com/hihusky/stringconstruction/StringBuilderExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functional-interface/build.gradle.kts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/src/main/java/com/hihusky/net/socket/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/main/java/com/hihusky/net/socket/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/src/main/java/com/hihusky/net/socket/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/main/java/com/hihusky/net/socket/Server.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reflection/src/main/java/com/hihusky/reflection/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/reflection/src/main/java/com/hihusky/reflection/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generic/src/main/java/GenericOnClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/generic/src/main/java/GenericOnClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -124,6 +117,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$USER_HOME$/.jdks/temurin-17.0.10/lib/src.zip!/java.base/java/lang/AbstractStringBuilder.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.jdks/temurin-17.0.10/lib/src.zip!/java.base/java/lang/StringBuffer.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.jdks/temurin-17.0.10/lib/src.zip!/java.base/java/lang/StringBuilder.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.jdks/temurin-17.0.10/lib/src.zip!/java.base/java/util/concurrent/ConcurrentHashMap.java" root0="SKIP_INSPECTION" />
+  </component>
   <component name="MacroExpansionManager">
     <option name="directoryName" value="89wdqdhv" />
   </component>
@@ -141,36 +140,46 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;temurin-17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/ming/projects/java-cookbook&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.12402344&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.1452514&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;5a3f2d15d155aa197b2d69e831d82c1a&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Gradle.java-cookbook:hashmap-type [:hashmap-type:HashMapExample.main()].executor": "Debug",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "jdk.selected.JAVA_MODULE": "17",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/fox20/projects/test",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.12402344",
+    "project.structure.side.proportion": "0.1452514",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "com.maddyhome.idea.vim.ui.VimEmulationConfigurable",
+    "spring.configuration.checksum": "5a3f2d15d155aa197b2d69e831d82c1a",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.hihusky.stream" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Server">
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.HashMapExample">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hihusky.net.socket.Client" />
       <module name="java-cookbook.net.main" />
@@ -197,6 +206,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hihusky.stream.Demo" />
+      <module name="java-cookbook.stream.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hihusky.stream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GenericOnFunction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GenericOnFunction" />
+      <module name="java-cookbook.generic.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GenericOnFunction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GenericOnFunction" />
+      <module name="java-cookbook.generic.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HashMapExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hihusky.hashmap.HashMapExample" />
+      <module name="java-cookbook.hashmap-type.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hihusky.hashmap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hihusky.net.socket.Server" />
       <module name="java-cookbook.net.main" />
@@ -210,7 +259,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppleTest.testToStringMethod" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hihusky.net.socket.Server" />
+      <module name="java-cookbook.net.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hihusky.net.socket.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppleTest.testValue" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -223,7 +285,7 @@
           <list>
             <option value=":enum:test" />
             <option value="--tests" />
-            <option value="&quot;com.hihusky.enum_.AppleTest.testToStringMethod&quot;" />
+            <option value="&quot;com.hihusky.enum_.AppleTest.testValue&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -258,13 +320,9 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <option name="filePath" />
+    <configuration name="HateoasDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="hateoas-demo.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.hateoasdemo.HateoasDemoApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -283,6 +341,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpringDataRestDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="spring-data-rest-demo.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hihusky.springdatarestdemo.SpringDataRestDemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringJpaDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="spring-jpa-demo.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hihusky.springjpademo.SpringJpaDemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SpringJpaDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="spring-jpa-demo.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.hihusky.springjpademo.SpringJpaDemoApplication" />
@@ -292,13 +364,21 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Demo" />
-        <item itemvalue="Application.Client" />
-        <item itemvalue="Application.Server" />
+        <item itemvalue="Application.HashMapExample" />
         <item itemvalue="Gradle.AppleTest.testValue" />
-        <item itemvalue="Gradle.AppleTest.testToStringMethod" />
+        <item itemvalue="Application.Server" />
+        <item itemvalue="Application.GenericOnFunction" />
+        <item itemvalue="Application.Demo" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.10-temurin-17.0.10-3183f394aec4-87f3d08d" />
+        <option value="jdk-17.0.9-temurin-17.0.9-4caba194b151-0a678b09" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -331,10 +411,25 @@
       <workItem from="1695691643444" duration="1020000" />
       <workItem from="1695692668527" duration="103000" />
       <workItem from="1695692776891" duration="668000" />
+      <workItem from="1695698164879" duration="4304000" />
+      <workItem from="1696646183831" duration="609000" />
+      <workItem from="1697007074559" duration="1546000" />
+      <workItem from="1697396296969" duration="667000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.jdks/temurin-17.0.10/lib/src.zip!/java.base/java/util/HashMap.java</url>
+          <line>609</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

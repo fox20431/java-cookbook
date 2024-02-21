@@ -1,6 +1,5 @@
 /**
  * set generic on class
- *
  * if you want to limit generic type range, you can use "extends" or "super".
  * for example "T extends String", it means T is String's child class.
  *

@@ -14,12 +14,14 @@
             <option value="$PROJECT_DIR$/enum" />
             <option value="$PROJECT_DIR$/file" />
             <option value="$PROJECT_DIR$/generic" />
+            <option value="$PROJECT_DIR$/hashmap-type" />
             <option value="$PROJECT_DIR$/iterable" />
             <option value="$PROJECT_DIR$/lambda" />
             <option value="$PROJECT_DIR$/native" />
             <option value="$PROJECT_DIR$/net" />
             <option value="$PROJECT_DIR$/reflection" />
             <option value="$PROJECT_DIR$/stream" />
+            <option value="$PROJECT_DIR$/string-construction" />
             <option value="$PROJECT_DIR$/sync" />
           </set>
         </option>
